@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto+Mono:ital,wght@1,500&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(104.19deg, #888181 10.09%, #D9D9D9 80.8%, rgba(217, 217, 217, 0) 100%);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    height: 70px;
+}
+.conteudo-principal{
+    margin-bottom: 48px;
+    border-top: 2px solid #ffffff;
+}
+
+.apresentação{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-around;
+}
+.apresentação-principal{
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+}
+
+.título{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.subtítulo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.botão{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(0, 0, 0); 
+    border-radius: 15px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.botão:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.imagem-principal{
+    border-radius: 20px;
+    height: 390px;
+}
+
+.secundário{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 70px;
+}
+
+.secundário-título{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 70px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.secundário-parágrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.terciário{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 70px; 
+}
+
+.terciário-título{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 70px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.terciário-pagamento{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-around;
+}
+
+.terciário-parágrafo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    margin-left: 20px;
+}
+
+.imagem-pagamento{
+    height: 125px;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+}
+
+.rodape{
+    background-color: black;
+    padding: 20px;
+    border-top: 2px solid #fff2e7;
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
